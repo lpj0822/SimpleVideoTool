@@ -11,6 +11,7 @@
 #include "videocroppingwindow.h"
 #include "imagesamplesmakewindow.h"
 #include "qcamerawindow.h"
+#include "imageconverterwindow.h"
 
 class ControlWindow : public QWidget
 {
@@ -37,6 +38,7 @@ private:
     VideoCroppingWindow* videoCroppingWindow;
     ImageSamplesMakeWindow *imageSamplesMakeWindow;
     QCameraWindow *qcameraWindow;
+    ImageConverterWindow *imageConverterWindow;
 
     void init();
     void initUI();
